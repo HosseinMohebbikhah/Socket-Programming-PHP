@@ -2,7 +2,7 @@
 /// https://www.php.net/manual/en/book.sockets.php
 
 $host    = "127.0.0.1";
-$port    = 5555;
+$port    = 5550;
 $data = json_encode(['data' => 'https://www.php.net/']);
 $socket = socket_create(AF_INET, SOCK_STREAM, 0) or die("Could not create socket\n");
 try {
