@@ -1,7 +1,7 @@
 <?php
 /// https://www.php.net/manual/en/book.sockets.php
 
-$port = 5550;
+$port = 5555;
 set_time_limit(0);
 $socket = socket_create(AF_INET, SOCK_STREAM, SOL_TCP) or die("socket_create failed");
 socket_bind($socket, '0.0.0.0', $port) or die("socket_bind failed");
